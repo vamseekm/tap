@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "task": "ts-node -r tsconfig-paths/register -P src/tap/tsconfig.json src/tap/Main.ts",
-    "task:dev": "nodemon -V -w src/tap -w src/app -e ts,js -x yarn task"
+    "task:dev": "nodemon -V -w src/tap -w src/app -e ts,js -x yarn run task"
   },
   "author": "",
   "license": "ISC",

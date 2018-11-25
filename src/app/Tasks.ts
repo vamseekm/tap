@@ -6,7 +6,7 @@ export class TasksClass {
     }
 
     public serverStart(args: any) {
-        const port = args.port;
+        const {port} = args;
         if (port == null) {
             throw Error("Please supply port");
         }
